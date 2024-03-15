@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+    
+</style>
+    
+    
+</head>
+<body>
+    <p><u><b>STUDENT INFORMATION:</b></u></p>
+    <fieldset><legend>student details</legend>
+    <form>
+        student name
+        <input type="text" placeholder="student name" name="studentname" required/>
+        <hr>
+    <label for="gender">Gender:</label>
+    <input type="radio" id="gender" name="gender" value="male"/>male
+    <input type="radio" id="gender" name="gender" value="female"/>female<br>
+        <hr>
+        student email
+        <input type="email" placeholder="email"name="email" required/>
+        <hr>
+        <label for="mble">mobile number:</label>
+        <input type="tel" id="mble"name="mble" pattern="[0-9]{10}"/>
+        <hr>
+        <label for="year">year:</label>
+        <input type="radio" id="I" name="year" value="1"/>I
+        <input type="radio" id="II" name="year" value="1"/>II
+        <input type="radio" id="III" name="year" value="1"/>III
+        <input type="radio" id="IV" name="year" value="1"/>IV
+        <br>
+        
+    <hr>
+    year of passedout
+       <input type="date">
+        
+<hr>
+which language your intrested?
+<select value="dropdown">
+    <option value="python">python</option>
+    <option value="java">java</option>
+    <option value=".net">.net</option>
+    <option value="c++">c++</option>
+</select>
+    <hr>
+upload your resume<br>
+    <input type="file" name="fileupload" accept="image/docment"/>
+    <hr>
+    write about your passion on IT sector
+    <textarea rows="3" cols="20"></textarea>
+    <hr>
+    <p>intrested domain:</p>
+    <input type="radio" id="intrested domain1" name="intrested domain1"  value="IT"/><label>IT</label>
+    <input type="radio" id="intrested domain1" name="intrested domain1"  value="NON-IT"/><label>NON-IT</label>
+    <input type="radio" id="intrested domain1" name="intrested domain1"  value="both"/><label>both</label>
+<hr>
+<label for="companies">Choose company from the list:</label>
+<input list="companies" name="MNCS" id="MNCS">
+<datalist id="companies">
+    <optgroup label="IT">
+    <option value="TCS">
+    <option value="HCL">
+    <option value="CAPGEMINI">
+    <option value="COGNIZANT">
+    <option value="AVENEON">
+        </option>
+    <optgroup label="NON-IT">
+            <option value="tcs">
+                <option value="us taxation">
+                <option value="tech mahindra">
+                <option value="shakthi automotives">
+                <option value="AVENEON nontech">
+
+        </optgroup>
+  </datalist>
+<hr>
+
+
+<input type="submit" formaction="jits2.html"/>
+
+
+
+
+</form>
+</fieldset>
+
+    
+
+</body>
+</html>
